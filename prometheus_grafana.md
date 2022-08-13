@@ -34,3 +34,9 @@ nohup ./node_exporter &
 ```
 then add target to prometheus.yml ,reload
 ` curl -X POST http://192.168.111.132:9090/-/reload `
+
+# add grafana panel
+import grafana panel `https://grafana.com/grafana/dashboards/1860`
+
+
+

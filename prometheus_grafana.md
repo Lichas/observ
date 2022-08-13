@@ -14,3 +14,13 @@ sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_9.0.7_amd64.deb
 sudo dpkg -i grafana-enterprise_9.0.7_amd64.deb
 ```
+
+then start grafana
+```
+sudo systemctl start grafana-server
+sudo systemctl status grafana-server
+```
+using admin/admin to login web
+
+# add data source
+![image](https://user-images.githubusercontent.com/1063747/184475103-16c61bca-5ba3-4c62-86da-3096b0ed8fe9.png)
